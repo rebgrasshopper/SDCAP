@@ -1,4 +1,16 @@
 
+html {
+    text-align: center;
+}
+body {
+    text-align: center;
+    background: url("../images/background/KUBntF.jpg");
+    /* background-repeat: repeat; */
+    max-width: 900px;
+
+}
+
+
 /* nav */
 
 .container-fluid {
@@ -92,6 +104,18 @@ header h1 {
     font-size: 8em;
 }
 
+#welcomeSection {
+    display: inline-block;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#welcomeSection #container {
+    background: whitesmoke;
+}
 #welcomeSection p {
     font-size: large;
     margin: 30px;
@@ -103,8 +127,14 @@ header h1 {
 
 
 
-
-
+/* footer */
+footer {
+    background-color: #333;
+    color: whitesmoke;
+    padding: 10px;
+    margin: 0px;
+    width: 100vw;
+}
 
 
 
@@ -120,5 +150,10 @@ header h1 {
 @media screen and (min-width: 769px) {
     .navbar-nav {
         float: right;
+    }
+
+    #welcomeSection #container {
+        background: whitesmoke;
+        margin: 0px 20vw 0px 20vw;
     }
 }
