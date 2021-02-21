@@ -1,0 +1,61 @@
+#mainText #container {
+    padding: 140px 8px 30px 8px;
+    margin: 0px;
+    width: 100% !important;
+}
+
+#carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#carousel img {
+    height: 40vh;
+}
+
+.card-title {
+    background-color: rgb(73, 163, 163);
+    width: 40vh;
+    margin: auto;
+    padding: 9px 0px 9px 0px;
+}
+
+.card-title a {
+    color: whitesmoke;
+}
+
+#bioPhotos {
+    background-image: linear-gradient(whitesmoke, rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), whitesmoke);
+    padding: 60px 10px 60px 10px;
+}
+#bioPhotos img {
+    height: 40vh;
+}
+
+#bioPhotos figure {
+    padding: 12px;
+}
+
+#performanceHistory img, #performanceHistory .card-title {
+    width: 30vh;
+    color: whitesmoke;
+}
+
+
+
+@media screen and (min-width: 769px) {
+
+    #mainText {
+        padding-top: 90px;
+    }
+
+    #mainText #container {
+        background: whitesmoke;
+        width: unset !important;
+        padding-top: 40px;
+        margin: 0px 20vw 0px 20vw;
+
+    }
+
+}

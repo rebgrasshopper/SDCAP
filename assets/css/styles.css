@@ -1,29 +1,31 @@
-
 html {
     text-align: center;
 }
+
 body {
     text-align: center;
     background: url("../images/background/KUBntF.jpg");
     /* background-repeat: repeat; */
     max-width: 900px;
-
 }
 
-
 /* nav */
+
+nav {
+    max-width: 100vw !important;
+}
 
 .container-fluid {
     padding-top: 20px;
     padding-bottom: 20px;
-    font-size: large;
 }
+
 .navbar-nav {
     display: flex !important;
     flex-direction: row !important;
     margin-bottom: 0px;
+    font-size: medium;
 }
-
 
 .navbar-brand {
     font-size: xx-large;
@@ -40,19 +42,39 @@ a.navbar-brand {
 }
 
 @-webkit-keyframes AnimationName {
-    0%{background-position:13% 0%}
-    50%{background-position:88% 100%}
-    100%{background-position:13% 0%}
+    0% {
+        background-position: 13% 0%
+    }
+    50% {
+        background-position: 88% 100%
+    }
+    100% {
+        background-position: 13% 0%
+    }
 }
+
 @-moz-keyframes AnimationName {
-    0%{background-position:13% 0%}
-    50%{background-position:88% 100%}
-    100%{background-position:13% 0%}
+    0% {
+        background-position: 13% 0%
+    }
+    50% {
+        background-position: 88% 100%
+    }
+    100% {
+        background-position: 13% 0%
+    }
 }
+
 @keyframes AnimationName {
-    0%{background-position:13% 0%}
-    50%{background-position:88% 100%}
-    100%{background-position:13% 0%}
+    0% {
+        background-position: 13% 0%
+    }
+    50% {
+        background-position: 88% 100%
+    }
+    100% {
+        background-position: 13% 0%
+    }
 }
 
 nav.navbar.navbar-inverse {
@@ -75,24 +97,13 @@ nav.navbar.navbar-inverse {
     margin-top: 6px;
     border-bottom: darkgrey;
     font-size: large;
-
 }
+
 .dropdown-menu li:last-of-type {
     margin-bottom: 6px;
 }
 
-/* hero */
-#hero {
-    margin-top: 0px;
-    width: 100vw;
-    background-image: url('../images/kids.jpg');
-    background-size: cover;
-    height: 80vw;
-    max-height: 70vh;
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/* main */
 
 header {
     text-align: center;
@@ -100,11 +111,12 @@ header {
 }
 
 header h1 {
+    padding-top: 40px;
     font-family: "Bad Script", sans-serif;
-    font-size: 8em;
+    font-size: 4.5em;
 }
 
-#welcomeSection {
+#mainText {
     display: inline-block;
     width: 100vw;
     display: flex;
@@ -113,21 +125,20 @@ header h1 {
     align-items: center;
 }
 
-#welcomeSection #container {
+#mainText #container {
     background: whitesmoke;
+    padding-bottom: 80px;
+
 }
-#welcomeSection p {
+
+#mainText p {
     font-size: large;
     margin: 30px;
     text-indent: 2em;
 }
 
-
-
-
-
-
 /* footer */
+
 footer {
     background-color: #333;
     color: whitesmoke;
@@ -136,24 +147,18 @@ footer {
     width: 100vw;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 769px) {
     .navbar-nav {
         float: right;
+        font-size: large;
     }
 
-    #welcomeSection #container {
+    #mainText #container {
         background: whitesmoke;
         margin: 0px 20vw 0px 20vw;
+    }
+
+    header h1 {
+        font-size: 8em;
     }
 }
