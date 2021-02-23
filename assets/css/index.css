@@ -15,7 +15,7 @@
 
 #covidUpdate {
     border: solid 2px #333;
-    background-color: rgb(190, 196, 195);
+    background-color: var(--dGray);
 }
 
 #about h3 {

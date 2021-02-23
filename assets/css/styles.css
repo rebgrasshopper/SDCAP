@@ -1,3 +1,9 @@
+:root {
+    --teal: rgb(73, 163, 163);
+    --dGray: rgb(190, 196, 195);
+    --lGray: rgb(229, 232, 233);
+}
+
 html {
     text-align: center;
 }
@@ -156,6 +162,7 @@ footer {
     #mainText #container {
         background: whitesmoke;
         margin: 0px 20vw 0px 20vw;
+        width: 70vw;
     }
 
     header h1 {

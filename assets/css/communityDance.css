@@ -15,7 +15,7 @@
 }
 
 .card-title {
-    background-color: rgb(73, 163, 163);
+    background-color: var(--teal);
     width: 40vh;
     margin: auto;
     padding: 9px 0px 9px 0px;
@@ -26,7 +26,7 @@
 }
 
 #bioPhotos {
-    background-image: linear-gradient(whitesmoke, rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), rgb(229, 232, 233), whitesmoke);
+    background-image: linear-gradient(whitesmoke, var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), whitesmoke);
     padding: 60px 10px 60px 10px;
 }
 #bioPhotos img {
@@ -37,11 +37,35 @@
     padding: 12px;
 }
 
-#performanceHistory img, #performanceHistory .card-title {
-    width: 30vh;
-    color: whitesmoke;
+#performanceHistory {
+    background-image: linear-gradient(whitesmoke, var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), whitesmoke);
+    padding: 60px 10px 60px 10px;
 }
 
+#performanceHistory .title {
+    color: whitesmoke;
+    font-size: large;
+    background-color: var(--teal);
+    width: 100%;
+    padding: 6px;
+    margin-top: 0px;
+}
+
+#performanceHistory img {
+    width: 45%;
+    object-fit: scale-down;
+}
+#performanceHistory .card {
+    display: flex;
+    border: 2px solid #333;
+    margin: 9px auto 9px auto;
+    min-width: 300px;
+    max-width: 900px;
+    border-radius: 3px;
+    padding: 9px;
+    align-items: start;
+    background-color: whitesmoke;
+}
 
 
 @media screen and (min-width: 769px) {
@@ -52,10 +76,9 @@
 
     #mainText #container {
         background: whitesmoke;
-        width: unset !important;
+        width: 70vw !important;
         padding-top: 40px;
         margin: 0px 20vw 0px 20vw;
-
     }
 
 }
