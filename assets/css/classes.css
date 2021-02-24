@@ -1,10 +1,27 @@
 #mainText #container {
     padding: 140px 8px 30px 8px;
     margin: 0px;
-    width: 100% !important;
+    width: 95 !important;
 }
 
+#rainbowKids {
+    width: 100%;
+    display: none;
+}
 
+#classesHeader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/rainbowkids.png");
+    background-size: cover;
+    height: 30vw;
+}
+
+#classesHeader h1 {
+    -webkit-text-shadow: 0 0 10px #fff;
+        text-shadow: 0px 0px 10px #fff;
+}
 
 /* Schedule and Tuition */
 
@@ -99,6 +116,28 @@ th, td {
 
 
 
+/* descriptions */
+
+#classDescriptions, #campDescriptions {
+    border: solid 2px #333;
+    background-color: var(--lGray);
+    border-radius: 2px;
+    margin: 12px 6px 6px 6px;
+    padding: 8px;
+}
+
+#ballerina {
+    height: 280px;
+}
+.campDate {
+    margin: 0px auto 0px auto !important;
+}
+
+#twoDescriptions p {
+    text-indent: 0px;
+}
+
+
 @media screen and (min-width: 769px) {
 
     #mainText {
@@ -111,6 +150,10 @@ th, td {
         padding-top: 40px;
         margin: 0px 20vw 0px 20vw;
 
+    }
+
+    #classesHeader h1 {
+        height: 20vw;
     }
     th, td {
         padding: 5px 18px 5px 18px;
@@ -126,7 +169,14 @@ th, td {
     width: 50%;
     }
 
-
+    #twoDescriptions {
+        display: flex;
+    }
+    
+    #classDescriptions, #campDescriptions {
+        width: 50%;
+    }
+    
 
 }
 
@@ -134,5 +184,9 @@ th, td {
     #mainText #container {
         width: 70vw !important;
 
+    }
+
+    #classesHeader h1 {
+        height: 10vw;
     }
 }
