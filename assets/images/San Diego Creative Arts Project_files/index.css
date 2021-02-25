@@ -78,19 +78,15 @@ iFrame {
 .item {
     margin-bottom: 80px !important;
 }
+
 @media screen and (min-width: 859px) {
     #TWRvideo {
         width: 100%;
         height: 360px;
     }
 
-    .item {
-        width: 100%;
-        margin-bottom: 80px !important;
-    }
-
     iFrame {
-        width: 80%;
+        width: 665px;
         height: 360px;
     }
 
