@@ -4,17 +4,40 @@
     width: 100% !important;
 }
 
-@media screen and (min-width: 769px) {
+img {
+    width: 90%;
+}
 
+.courses {
+    border: 4px solid var(--teal);
+    background-color: var(--tealLight);
+    border-radius: 10px;
+    margin: 14px;
+}
+
+.title {
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--teal);
+}
+
+.title:hover {
+    cursor: pointer;
+}
+
+.closed {
+    height: 0px;
+    overflow: hidden;
+    margin: 0px !important;
+}
+
+@media screen and (min-width: 769px) {
     #mainText {
         padding-top: 90px;
     }
-
     #mainText #container {
         background: whitesmoke;
         width: 70vw !important;
         padding-top: 40px;
         margin: 0px 20vw 0px 20vw;
     }
-
 }
