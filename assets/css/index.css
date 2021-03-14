@@ -3,6 +3,7 @@
 #hero {
     margin-top: 0px;
     width: 100vw;
+    background-color: rgb(22, 22, 22);
 }
 
 #hero img {
@@ -100,5 +101,11 @@ iFrame {
     #togetherWeRiseCredits,
     #togetherWeRiseBios {
         width: 50%;
+    }
+}
+
+@media screen and (max-width: 799px) {
+    #hero {
+        padding-top: 140px;
     }
 }
