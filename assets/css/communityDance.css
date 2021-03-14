@@ -29,6 +29,7 @@
     background-image: linear-gradient(whitesmoke, var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), whitesmoke);
     padding: 60px 10px 60px 10px;
 }
+
 #bioPhotos img {
     height: 40vh;
 }
@@ -56,6 +57,7 @@
     width: 45%;
     object-fit: scale-down;
 }
+
 #performanceHistory .card {
     display: flex;
     margin: 9px auto 9px auto;
@@ -67,17 +69,19 @@
     background-color: whitesmoke;
 }
 
-@media screen and (min-width: 769px) {
+#performanceHistory .card .card-text {
+    text-align: left;
+    text-indent: 0px;
+}
 
+@media screen and (min-width: 769px) {
     #mainText {
         padding-top: 90px;
     }
-
     #mainText #container {
         background: whitesmoke;
         width: 70vw !important;
         padding-top: 40px;
         margin: 0px 20vw 0px 20vw;
     }
-
 }
