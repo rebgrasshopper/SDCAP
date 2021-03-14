@@ -9,6 +9,10 @@ img {
     border-radius: 3px;
 }
 
+#jumpingKids {
+    max-width: 800px;
+}
+
 #coursesH1 {
     font-size: 6em;
     margin-bottom: 50px;

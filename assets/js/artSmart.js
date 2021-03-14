@@ -13,5 +13,5 @@ function expander(event) {
     }
 
 }
-
+console.log("Photo of students doing art by Pragyan Bezbaruah, from pexels.com")
 document.addEventListener("click", expander);
