@@ -6,11 +6,17 @@
 
 img {
     width: 90%;
+    border-radius: 3px;
+}
+
+#coursesH1 {
+    font-size: 6em;
+    margin-bottom: 50px;
 }
 
 .courses {
     border: 4px solid var(--teal);
-    background-color: var(--tealLight);
+    background-color: var(--lGray);
     border-radius: 10px;
     margin: 14px;
 }
