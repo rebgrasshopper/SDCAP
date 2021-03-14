@@ -99,6 +99,7 @@ iFrame {
     }
     iFrame {
         width: 80%;
+        max-width: 660px;
         height: 360px;
     }
     #togetherWeRiseCreditsBios {
