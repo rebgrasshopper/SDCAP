@@ -97,6 +97,10 @@ nav.navbar.navbar-inverse {
     background-color: #292b2c;
 }
 
+.nav li {
+    font-size: small;
+}
+
 .dropdown-menu li a {
     color: darkgray !important;
 }
@@ -187,5 +191,8 @@ footer button img {
     }
     header h1 {
         font-size: 8em;
+    }
+    nav li {
+        font-size: unset;
     }
 }
