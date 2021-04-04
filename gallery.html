@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Creative Arts International</title>
+    <title>Creative Arts International - Contact Us</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
@@ -12,7 +12,7 @@
     <!-- font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Amatic+SC|Bad+Script">
     <link href='./assets/css/styles.css' rel='stylesheet' type='text/css'>
-    <link href='./assets/css/mediaServices.css' rel='stylesheet' type='text/css'>
+    <link href='./assets/css/gallery.css' rel='stylesheet' type='text/css'>
     <!-- favicon -->
     <link rel="apple-touch-icon" sizes="76x76" href="./assets/images/icons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/icons/favicon-32x32.png">
@@ -35,16 +35,16 @@
                 </div>
                 <ul class="nav navbar-nav">
                     <li><a href="/">Home</a></li>
-                    <li class="dropdown active">
+                    <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">Programs
                             <span class="caret"></span></a>
                         <ul class="dropdown-menu">
                             <li><a href="communityDance.html">SDCAP: Dance, Voice, Theater</a></li>
                             <li><a href="artSmart.html">ArtSmart</a></li>
-                            <li><a href="#">Media Services</a></li>
+                            <li><a href="mediaServices.html">Media Services</a></li>
                         </ul>
                     </li>
-                    <li><a href="gallery.html">Gallery</a></li>
+                    <li class='active'><a href="#">Gallery</a></li>
                     <li><a href="classes.html">Classes</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
@@ -58,38 +58,54 @@
         <section id="mainText">
             <div id="container">
                 <header>
-                    <h1>Media Services:</h1>
-                    <img src="./assets/images/media/pexels-andrea-piacquadio-3769021.jpg" alt="person with long, curly black hair sitting at table with laptop">
-                    <h2>Techology Tutoring</h2>
-                    <p>Gain fluency in necessary computer skills for daily life.</p>
-                    <p>Creative Arts International knows that for full participation in today's community, all of us need a solid understanding of computers, and digital communication.</p>
-                    <p>So many things can get in the way! Lack of time, lack of training, or simply lack of experience. We provide tutoring to demystify your ditial experience, whether your need is simple, like accessing basic computer functions, or more
-                        complicated, like navigating your organization's online presence in social media.</p>
-                    <p>Some of the areas we offer tutoring:</p>
-                    <div class="lists">
-                        <ul><strong>Basic Web</strong>
-                            <li>Google (Gmail)</li>
-                            <li>Other email</li>
-                            <li>Document types</li>
-                            <li>Basic web browsing</li>
-                            <li>Basic photo editing</li>
-                        </ul>
-                        <ul><strong>Social Media</strong>
-                            <li>Facebook</li>
-                            <li>Instagram</li>
-                            <li>LinkedIn</li>
-                            <li>TikTok</li>
-                            <li>YouTube</li>
-                            <li>Twitter</li>
-                        </ul>
+                    <h1>Gallery:</h1>
+                </header>
+                <br/>
+                <h3>Please excuse our mess! Page under construction!</h3>
+                <h3 id='sublinks'>
+                    <a href="#photos">Photos</a>
+                    <a href="#videos">Videos</a>
+                    <a href="#posters">Posters</a>
+                </h3>
+                <div id="galleryDiv">
+                    <article id="photos">
+                        <img src="./assets/images/carosel/2018-04-17_00_19_04_2018-04-17_00_18_54_contemp_4_32216-qqy.jpg" alt="modern dance" />
+                        <img src="./assets/images/carosel/2018-04-23_02_23_06_2018-04-23_02_23_03_backstage_pink_hug-ajd.jpg" alt="backstage hug" />
+                        <img src="./assets/images/carosel/aladdin_lean.jpg" alt="practicing for the show" />
+                        <img src="./assets/images/carosel/bow.jpg" alt="take a bow" />
+                        <img src="./assets/images/carosel/costume_try_on.jpg" alt="trying on costumes!" />
+                        <img src="./assets/images/carosel/izze_teen_contemporary_17.jpg" alt="contemporary dance" />
+                        <img src="./assets/images/carosel/kids-zoom-class-mila-and-anjanay.jpg" alt="zoom class" />
+                        <img src="./assets/images/carosel/kids_1__2_barre_19.jpg" alt="kids at barre" />
+                        <img src="./assets/images/carosel/lucy_5th.jpg" alt="5th positon" />
+                        <img src="./assets/images/carosel/mila_super.jpg" alt="superman!" />
+                        <img src="./assets/images/carosel/pre_2019_show_floor.jpg" alt="pre-dance show time!" />
+                        <img src="./assets/images/carosel/pre_dance_floor.jpg" alt="pre-dance floor" />
+                        <img src="./assets/images/carosel/sequoia_alice_wave.jpg" alt="encore!" />
+                        <img src="./assets/images/carosel/students-floor-pose-studio.jpg" alt="pose!" />
+
+                    </article>
+
+                    <!-- The Modal -->
+                    <div id="myModal" class="modal">
+
+                        <!-- Modal content -->
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p id="modal-text"></p>
+                        </div>
 
                     </div>
-                    <p>Our goal is to reduce your frustration with technology in your life, so you can focus on enjoying the world around you.</p>
-                    <img src="./assets/images/media/pexels-alex-green-5693000.jpg" alt="">
-                    <p><a href="contact.html">Contact us</a> for more information, and sliding scale fees.</p>
-                </header>
+                    <article id="videos">
 
+                    </article>
+                    <article id="posters">
+
+                    </article>
+                </div>
+                <!--galleryDiv-->
             </div>
+            <!--container-->
         </section>
     </div>
     <footer class="bg-dark">
@@ -104,7 +120,8 @@
                     alt="instagram icon" /></a></button>
         </div>
     </footer>
-    <script src="./assets/js/media.js"></script>
+    <script type='text/javascript' src='./assets/js/gallery.js'></script>
+
 </body>
 
 </html>
