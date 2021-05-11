@@ -20,6 +20,10 @@ h1 {
     z-index: 100;
 }
 
+.classH {
+    font-family: unset !important;
+}
+
 
 /* Schedule and Tuition */
 
@@ -116,8 +120,21 @@ th, td {
     padding: 8px;
 }
 
-#ballerina {
-    height: 280px;
+.subHeadings {
+    font-family: unset !important;
+    font-size: large !important;
+}
+
+.superHeadings {
+    font-family: unset !important;
+    font-size: larger in !important;
+    background: none !important;
+
+}
+
+.ballerina {
+    height: 180px;
+    width: unset;
 }
 
 .campDate {
