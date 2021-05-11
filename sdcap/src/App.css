@@ -47,6 +47,7 @@ nav {
   -webkit-animation: AnimationName 30s ease infinite;
   -moz-animation: AnimationName 30s ease infinite;
   animation: AnimationName 30s ease infinite;
+  padding-right: 80px;
 }
 
 a.navbar-brand {

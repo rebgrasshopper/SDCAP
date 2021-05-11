@@ -4,8 +4,7 @@
     width: 100% !important;
 }
 
-h1 {
-}
+
 p {
     text-indent: 0% !important;
     margin-top: 0px !important;
@@ -63,10 +62,5 @@ button img {
 
     .contactDiv {
         max-width: 500px;
-    }
-}
-
-@media screen and (min-width: 2000px) {
-    #mainText #container {
     }
 }
