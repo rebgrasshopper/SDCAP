@@ -25,16 +25,22 @@ img {
     margin: 14px;
 }
 
-.title {
+.classTitle {
     padding-bottom: 8px;
     border-bottom: 1px solid var(--teal);
+    border-radius: 5px 5px 0px 0px;
+    margin: 0px -1px 10px -1px;
 }
 
 .title:hover {
     cursor: pointer;
 }
 
-.closed {
+.carat {
+    pointer-events: none;
+}
+
+.closed + p, .closed + div {
     height: 0px;
     overflow: hidden;
     margin: 0px !important;

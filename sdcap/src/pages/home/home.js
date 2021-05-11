@@ -32,7 +32,7 @@ function Home() {
                 <article id="about">
                     <h2>Programs</h2>
                     <div class="program">
-                        <h3><a href="communityDance.html">San Diego Creative Arts Project</a></h3>
+                        <h3 id='homeH3'><a href="communityDance.html">San Diego Creative Arts Project</a></h3>
                             <p>Study with these amazing MASTER INSTRUCTORS!!!</p>
                             <p><strong>Laura Hodge</strong>: Contemporary, Musical Theatre, Ballet, Jazz, Tap, Acting
                             </p>
