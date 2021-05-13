@@ -18,8 +18,9 @@
     background-color: var(--dGray);
 }
 
-#homeH3 {
+.homeH3 {
     margin-top: 80px;
+    background: none !important;
 }
 
 h2 {

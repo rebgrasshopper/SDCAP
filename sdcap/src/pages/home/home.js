@@ -18,7 +18,7 @@ function Home() {
                 <header>
                 </header>
                 <article id="covidUpdate">
-                    <h3>Coronavirus Update:</h3>
+                    <h3 className="superHeadings">Coronavirus Update:</h3>
                     <p><span class="programName">Creative Arts International</span> and all of its programs are committed to protecting our community's health during the pandemic.</p>
                     <p>SDCAP is currently running all classes through Zoom, and we can't wait to see you all again in person as soon as San Diego County allows dance studios to open!</p>
                     <p>Please find your class in our <a href="classes.html">schedule</a>, and email us for the link:
@@ -32,20 +32,20 @@ function Home() {
                 <article id="about">
                     <h2>Programs</h2>
                     <div class="program">
-                        <h3 id='homeH3'><a href="communityDance.html">San Diego Creative Arts Project</a></h3>
+                        <h3 className = 'homeH3'><a href="communityDance.html">San Diego Creative Arts Project</a></h3>
                             <p>Study with these amazing MASTER INSTRUCTORS!!!</p>
                             <p><strong>Laura Hodge</strong>: Contemporary, Musical Theatre, Ballet, Jazz, Tap, Acting
                             </p>
                             <p><strong>Tammy Milner</strong>: Voice, Music, Musical Theatre</p>
                     </div>
                     <div class="program">
-                        <h3><a href="artSmart.html">artSmart</a></h3>
+                        <h3 className = 'homeH3'><a href="artSmart.html">artSmart</a></h3>
                         <h4></h4>
                         <p>artSmart pairs with local schools to provide both in class art lessons, and after school theater programs.</p>
                         <p>Our class offerings include dance, theater, music, visual arts, spoken word poetry, and yoga.</p>
                     </div>
                     <div class="program">
-                        <h3><a href="mediaServices.html">Media Services</a></h3>
+                        <h3 className = 'homeH3'><a href="mediaServices.html">Media Services</a></h3>
                         <h4></h4>
                         <p>Creative Arts International knows that participation in today's community requires a high level of computer literacy.</p>
                         <p>We are glad to offer tutoring in basic digital literacy: learn to navigate the web, create and edit documents and photos, and participate in a variety of social media platforms.</p>
@@ -57,8 +57,8 @@ function Home() {
                     <br /><br />
                     <h2 id="missionTitle">Mission</h2>
                     <br /><br />
-                    <h4>Creative Arts International</h4>
-                    <h4>"Where Arts Emerge!"</h4>
+                    <h4 className = 'subHeadings'>Creative Arts International</h4>
+                    <h4 className = 'subHeadings'>"Where Arts Emerge!"</h4>
                     <p>
                         CAI is invested in engaging, training, and inspiring students of all ages and backgrounds who desire to grow artistically and confidently in the performing arts. Our organization is committed to providing an ongoing presence in communities, granting access to the arts as well as the stability of consistent after-school activity for children, especially the underprivileged and those who might not otherwise be able to afford it. </p>
                 </article>
@@ -70,7 +70,7 @@ function Home() {
                         alt="raised fists in brown, tan, beige, rainbow, red, white, and blue, with the words Together We Rise" />
 
                     <h2>Together We Rise</h2>
-                    <h4>A project for Light Up The Cathedral, San Diego Pride, 2020</h4>
+                    <h4 className="subHeadings">A project for Light Up The Cathedral, San Diego Pride, 2020</h4>
                     <iframe id="TWRvideo" src="https://player.vimeo.com/video/439063529" width="375" height="260"
                         frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>
                     <p><a href="https://vimeo.com/439063529">&quot;Together We RIse&quot;aka &quot;Raison D&#039;etre -
@@ -104,7 +104,7 @@ function Home() {
                     </div>
                     <div id="togetherWeRiseCreditsBios">
                         <div id="togetherWeRiseCredits">
-                            <h3><strong>CREDITS</strong></h3>
+                            <h2><strong>CREDITS</strong></h2>
 
                             <h5>Produced by San Diego Creative Arts Project</h5>
 
@@ -115,7 +115,7 @@ function Home() {
                             <p><strong>
                                     Video Production and Editor - Samuel “Quin” Bledsoe
                                 </strong></p>
-                            <h4>The Creators</h4>
+                            <h4 className = 'subHeadings'><strong>The Creators</strong></h4>
                             <div>
                                 <p>
                                     Mami Tomotani - New York City, NY
@@ -137,7 +137,7 @@ function Home() {
                                 </p>
                             </div>
 
-                            <h4>Youth - San Diego Creative Arts Project, CA</h4>
+                            <h4 className = 'subHeadings'><strong>Youth - San Diego Creative Arts Project, CA</strong></h4>
                             <div class="creditsDiv">
                                 <div class="col1">
                                     <p>
@@ -166,7 +166,7 @@ function Home() {
                             <p id="bottom">
                                 Unicorn - Isabel Hodge
                             </p>
-                            <h4>Youth & Teens - Hariyama Ballet NY, NY</h4>
+                            <h4 className = 'subHeadings'><strong>Youth & Teens - Hariyama Ballet NY, NY</strong></h4>
                             <div class="creditsDiv">
                                 <div class="col1">
                                     <p>
@@ -193,9 +193,9 @@ function Home() {
                         </div>
 
                         <div id="togetherWeRiseBios">
-                            <h3><strong>BIOS</strong></h3>
+                            <h2><strong>BIOS</strong></h2>
 
-                            <h4><strong>LAURA HODGE</strong></h4>
+                            <h4 className = 'subHeadings'><strong>LAURA HODGE</strong></h4>
 
                             <p>Executive Artistic Director of San Diego Creative Arts Project, Laura is a Dance and
                                 Theatre Master Educator, Choreographer, Director, and Performing Artist, whose work is
@@ -214,7 +214,7 @@ function Home() {
                                     rel="noreferrer">@sdcreativearts</a></p>
 
 
-                            <h4><strong>TOME' COUSIN</strong></h4>
+                            <h4 className = 'subHeadings'><strong>TOME' COUSIN</strong></h4>
 
                             <p>Tome’ Cousin: Is a cross-art-form practitioner. While maintaining a prolific performance
                                 career he has molded an International award winning reputation that includes
@@ -225,7 +225,7 @@ function Home() {
 
 
 
-                            <h4><strong>MAMI TOMOTANI</strong></h4>
+                            <h4 className = 'subHeadings'><strong>MAMI TOMOTANI</strong></h4>
 
                             <p>Mami Tomotani choreographed many shows at Fiorello H.LaGuardia High School, Pittsburgh
                                 University and Contemporary dance pieces at Hariyama Ballet in NY. She performed many
@@ -238,7 +238,7 @@ function Home() {
 
 
 
-                            <h4><strong>JOHN DIAZ</strong></h4>
+                            <h4 className = 'subHeadings'><strong>JOHN DIAZ</strong></h4>
 
                             <p>San Diego based John Diaz has worked nationally and abroad in Europe and South America as
                                 a professional movement artist, choreographer, collaborator and educator. His encounters
@@ -254,7 +254,7 @@ function Home() {
 
 
 
-                            <h4><strong>SAM "QUIN" BLEDSOE</strong></h4>
+                            <h4 className = 'subHeadings'><strong>SAM "QUIN" BLEDSOE</strong></h4>
 
                             <p>Sam is a Dancer, a Drag Performer, and hospitality specialist.</p>
 
