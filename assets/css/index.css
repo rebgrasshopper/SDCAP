@@ -33,6 +33,13 @@ hr {
     margin: 50px;
 }
 
+#imgdiv {
+    display: flex;
+}
+
+.imgdivimg {
+    width: 28%;
+}
 
 /* together we rise */
 
