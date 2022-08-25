@@ -51,11 +51,11 @@ table {
 
 th, td {
     padding: 5px 1px 5px 1px;
-    border-bottom: rgb(172, 172, 172) 1px solid;
+    border-bottom: rgba(172, 172, 172, 0.647) 1.5px solid;
 }
 
-.prior {
-    border-bottom: rgb(172, 172, 172) 1px solid;
+.noTop {
+    border-top: none;
 }
 
 .empty, .day {
