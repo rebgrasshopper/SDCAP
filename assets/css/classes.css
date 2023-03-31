@@ -4,6 +4,10 @@
     width: 95 !important;
 }
 
+.anchor {
+    scroll-margin-top: 150px;
+  }
+
 #rainbowKids {
     width: 70%;
     z-index: 10;
@@ -108,6 +112,10 @@ th, td {
 
 /* descriptions */
 
+.courseInfo {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
 #classDescriptions, #campDescriptions {
     border: solid 2px #333;
     background-color: var(--lGray);
@@ -116,7 +124,7 @@ th, td {
     padding: 8px;
 }
 
-#ballerina {
+.ballerina {
     height: 280px;
 }
 
