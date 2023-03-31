@@ -60,7 +60,7 @@ const BOLD_DESCRIPTIONS = {
     [SUBJECTS.TUMBLING]: "",
     [SUBJECTS.SENIOR_MOVES]: "$80\nWednesdays 2:30-3:15  April 12 - May 31 at Parkway Community Center",
     [SUBJECTS.PRE_DANCE_TUMBLE]: "$100\nThursdays 2:30-3:15   April 13-June 1   at CV Woman's Club (no class May 11)",
-    [SUBJECTS.MUSICAL_THEATRE_KIDS]: "\"Alice in Wonderland\” Rebooted!\n$275\nTwo 1 ½ hour Classes per week\nWednesdays 3:30- 5:00 April 12 - May 31 at Parkway Community Center\nThursdays 3:30-5:00  April 13-June 1   at CV Woman’s Club (no class May 11)",
+    [SUBJECTS.MUSICAL_THEATRE_KIDS]: "\"Alice in Wonderland\" Rebooted!\n$275\nTwo 1 ½ hour Classes per week\nWednesdays 3:30- 5:00 April 12 - May 31 at Parkway Community Center\nThursdays 3:30-5:00  April 13-June 1   at CV Woman’s Club (no class May 11)",
 }
 
 $(document).ready(function() {
