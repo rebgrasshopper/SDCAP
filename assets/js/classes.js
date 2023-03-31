@@ -118,14 +118,11 @@ $(document).ready(function() {
         <h4><strong>${className}</strong></h4>
         ${BOLD_DESCRIPTIONS[className] ? `<strong>${BOLD_DESCRIPTIONS[className].replace(/\n/g, "<br/>")}</strong><br/><br/>` : ""}
         ${DESCRIPTIONS[className]}`;
-        console.log(newDescription);
 
         if (upToHalf < totalDescriptionLength/2) {
-            console.log(upToHalf, totalDescriptionLength, DESCRIPTIONS[className].length);
             upToHalf += DESCRIPTIONS[className].length;
             classDescriptions.insertBefore(newDescription, classBallerinaTwo);
         } else {
-            console.log("already half")
             classDescriptions.appendChild(newDescription);
         }
     })
