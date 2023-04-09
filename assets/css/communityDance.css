@@ -1,87 +1,133 @@
 #mainText #container {
-    padding: 140px 8px 30px 8px;
-    margin: 0px;
-    width: 100% !important;
+  padding: 140px 8px 30px 8px;
+  margin: 0px;
+  width: 100% !important;
 }
 
 #carousel {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #carousel img {
-    height: 40vh;
+  height: 40vh;
 }
 
 .card-title {
-    background-color: var(--teal);
-    width: 40vh;
-    margin: auto;
-    padding: 9px 0px 9px 0px;
+  background-color: var(--teal);
+  width: 40vh;
+  margin: auto;
+  padding: 9px 0px 9px 0px;
 }
 
 .card-title a {
-    color: whitesmoke;
+  color: var(--background);
 }
 
 #bioPhotos {
-    background-image: linear-gradient(whitesmoke, var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), var(--lGray), whitesmoke);
-    padding: 60px 10px 60px 10px;
+  background-image: linear-gradient(
+    var(--background),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--lGray),
+    var(--background)
+  );
+  padding: 60px 10px 60px 10px;
 }
 
 #bioPhotos img {
-    height: 40vh;
+  height: 40vh;
 }
 
 #bioPhotos figure {
-    padding: 12px;
+  padding: 12px;
 }
 
 #performanceHistory {
-    background-image: linear-gradient(whitesmoke, var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), var(--teal), whitesmoke);
-    padding: 60px 10px 60px 10px;
+  background-image: linear-gradient(
+    var(--background),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--teal),
+    var(--background)
+  );
+  padding: 60px 10px 60px 10px;
 }
 
 #performanceHistory .title {
-    color: whitesmoke;
-    font-size: large;
-    background-color: var(--teal);
-    width: 100%;
-    padding: 6px;
-    margin-top: 0px;
+  color: var(--background);
+  font-size: large;
+  background-color: var(--teal);
+  width: 100%;
+  padding: 6px;
+  margin-top: 0px;
 }
 
 #performanceHistory img {
-    border-radius: 3px 0px 3px 3px;
-    width: 45%;
-    object-fit: scale-down;
+  border-radius: 3px 0px 3px 3px;
+  width: 45%;
+  object-fit: scale-down;
 }
 
 #performanceHistory .card {
-    display: flex;
-    margin: 9px auto 9px auto;
-    min-width: 300px;
-    max-width: 900px;
-    border-radius: 3px;
-    padding: 9px;
-    align-items: start;
-    background-color: whitesmoke;
+  display: flex;
+  margin: 9px auto 9px auto;
+  min-width: 300px;
+  max-width: 900px;
+  border-radius: 3px;
+  padding: 9px;
+  align-items: start;
+  background-color: var(--background);
 }
 
 #performanceHistory .card .card-text {
-    text-align: left;
-    text-indent: 0px;
+  text-align: left;
+  text-indent: 0px;
 }
 
 @media screen and (min-width: 769px) {
-    #mainText {
-        padding-top: 90px;
-    }
-    #mainText #container {
-        background: whitesmoke;
-        width: 70vw !important;
-        padding-top: 40px;
-        margin: 0px 20vw 0px 20vw;
-    }
+  #mainText {
+    padding-top: 90px;
+  }
+  #mainText #container {
+    background: var(--lGray);
+    width: 70vw !important;
+    padding-top: 40px;
+    margin: 0px 20vw 0px 20vw;
+  }
 }
