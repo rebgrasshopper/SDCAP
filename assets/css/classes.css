@@ -26,25 +26,25 @@ h1 {
 
 /* Schedule and Tuition */
 
-#scheduleTuition h2:after {
+h2:after {
   content: "";
-  width: 50%;
+  width: 72%;
   display: block;
   height: 1px;
   background-color: var(--teal);
-  margin-left: 25%;
+  margin-left: 14%;
 }
 
-#schedule,
-#tuition {
+.double {
   border: solid 2px #333;
   background-color: var(--lGray);
   border-radius: 2px;
   margin: 12px 6px 6px 6px;
   padding: 8px;
+  width: 50%;
 }
 
-#tuition p {
+.tuition p {
   text-align: left;
 }
 
@@ -119,8 +119,8 @@ h3 {
   margin-top: 24px;
   margin-bottom: 24px;
 }
-#classDescriptions,
-#campDescriptions {
+
+.full-width {
   border: solid 2px #333;
   background-color: var(--lGray);
   border-radius: 2px;
@@ -160,16 +160,8 @@ h3 {
     display: flex;
     justify-content: space-evenly;
   }
-  #schedule,
-  #tuition {
-    width: 50%;
-  }
   #twoDescriptions {
     display: flex;
-  }
-  #classDescriptions,
-  #campDescriptions {
-    width: 50%;
   }
 }
 
