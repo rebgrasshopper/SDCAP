@@ -156,7 +156,7 @@ h3 {
   td {
     padding: 5px 18px 5px 18px;
   }
-  #scheduleTuition {
+  .scheduleTuition {
     display: flex;
     justify-content: space-evenly;
   }
