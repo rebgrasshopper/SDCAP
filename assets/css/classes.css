@@ -51,6 +51,7 @@ h2:after {
 table {
   text-align: left;
   max-width: 100vw;
+  margin: auto;
 }
 
 th,

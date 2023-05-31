@@ -23,36 +23,34 @@ const SUBJECTS = {
 // { start: "", end: "", name: SUBJECTS., level: "", monthlyFee: 0 },
 
 const chulaClasses = {
-  Wednesday: [
+  Saturday: [
     {
-      start: "2:30",
-      end: "3:15",
-      name: SUBJECTS.PRE_DANCE_TUMBLE,
-      level: "Ballet, Tap, & Tumbling for ages 3-5",
-      monthlyFee: 40,
-    },
-    {
-      start: "3:30",
-      end: "5:00",
-      name: SUBJECTS.MUSICAL_THEATRE_KIDS,
-      level: "Ages 6-15",
-      monthlyFee: 50,
-    },
-  ],
-  Thursday: [
-    {
-      start: "2:30",
-      end: "3:15",
+      start: "9:00",
+      end: "9:45",
       name: SUBJECTS.ADULT_SENIOR_DANCE,
       level: "",
-      monthlyFee: 40,
+      monthlyFee: 0,
     },
     {
-      start: "3:30",
-      end: "5:00",
-      name: SUBJECTS.MUSICAL_THEATRE_KIDS,
-      level: "Ages 6-15",
-      monthlyFee: 50,
+      start: "10:00",
+      end: "10:45",
+      name: SUBJECTS.BALLET_TAP_1,
+      level: "",
+      monthlyFee: 0,
+    },
+    {
+      start: "10:45",
+      end: "11:15",
+      name: SUBJECTS.TUMBLING,
+      level: "",
+      monthlyFee: 0,
+    },
+    {
+      start: "11:15",
+      end: "12:00",
+      name: SUBJECTS.BALLET_TAP_2,
+      level: "",
+      monthlyFee: 0,
     },
   ],
 };
@@ -149,8 +147,7 @@ const DESCRIPTIONS = {
     description:
       "A Dance Movement class for Adults & Seniors to work on  Balance, Grace, to Strengthen and Improve Flexibility incorporates elements of Modern Dance, Pilates, Yoga, a little Musical Theatre and “All That Jazz” Students will explore their creativity through Music, Dance, and Theatre.  Dress in comfortable clothing and shoes. Tennis shoes or non-slip shoes with padded soles are recommended.",
     BankersHillDetails: "",
-    ChulaVistaDetails:
-      "$40 or pay what you can\nThursdays 2:30-3:15  April 12 - May 31 at Parkway Community Center",
+    ChulaVistaDetails: "",
   },
   [SUBJECTS.PRE_DANCE_TUMBLE]: {
     description:
