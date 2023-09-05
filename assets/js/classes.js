@@ -55,32 +55,44 @@ const chulaClasses = {
   ],
 };
 
+// Dance Classes at St Paul’s Cathedral
+// 2728 Fifth Avenue
+// San Diego, CA 92104
+// Saturday
+// 8:45-9:30 Pre Dance ages 3-5
+// 9:30-10:30 Kids 1 Ballet & Tap ages 6-8
+// 10:30-11:00 Tumbling
+// 11:00-12:00 Kids 2 Ballet & Tap ages 8-10
+
+// 12:00-1:00 Adult Move & Groove Contemporary Dance/Movement Therapy
+// TBA More Classes and Musical Theatre coming soon!
+
 const bankersHillClasses = {
   Saturday: [
     {
-      start: "8:30",
-      end: "9:15",
-      name: SUBJECTS.BALLET_TAP_0,
+      start: "8:45",
+      end: "9:30",
+      name: SUBJECTS.PRE_DANCE_TUMBLE,
       level: "Ages 3-5",
       monthlyFee: 0,
     },
     {
-      start: "9:15",
-      end: "10:00",
-      name: SUBJECTS.BALLET_TAP_1,
-      level: "Ages for 6-7",
-      monthlyFee: 0,
-    },
-    {
-      start: "10:00",
+      start: "9:30",
       end: "10:30",
-      name: SUBJECTS.TUMBLING,
-      level: "Ages 8-10",
+      name: SUBJECTS.BALLET_TAP_1,
+      level: "Ages for 6-8",
       monthlyFee: 0,
     },
     {
       start: "10:30",
-      end: "11:15",
+      end: "11:00",
+      name: SUBJECTS.TUMBLING,
+      level: "",
+      monthlyFee: 0,
+    },
+    {
+      start: "11:00",
+      end: "12:00",
       name: SUBJECTS.BALLET_TAP_2,
       level: "Ages 8-10",
       monthlyFee: 0,
@@ -244,20 +256,20 @@ $(document).ready(function () {
   /*                        CHULA VISTA CLASSES                       */
   /* ---------------------------------------------------------------- */
 
-  const chulaTableBody = document.getElementById("chulaClassTable");
-  const chulaClassDescriptions = document.getElementById(
-    "chulaVistaClassDescriptions"
-  );
-  const chulaClassBallerinaTwo = document.getElementById("classBallerinaTwoC");
-  const chulaLocation = "ChulaVista";
+  // const chulaTableBody = document.getElementById("chulaClassTable");
+  // const chulaClassDescriptions = document.getElementById(
+  //   "chulaVistaClassDescriptions"
+  // );
+  // const chulaClassBallerinaTwo = document.getElementById("classBallerinaTwoC");
+  // const chulaLocation = "ChulaVista";
 
-  generateClassDays(chulaTableBody, chulaClasses, chulaLocation);
-  generateClassDescriptions(
-    chulaClassDescriptions,
-    chulaClassBallerinaTwo,
-    chulaClasses,
-    chulaLocation
-  );
+  // generateClassDays(chulaTableBody, chulaClasses, chulaLocation);
+  // generateClassDescriptions(
+  //   chulaClassDescriptions,
+  //   chulaClassBallerinaTwo,
+  //   chulaClasses,
+  //   chulaLocation
+  // );
 
   /* ---------------------------------------------------------------- */
   /*                       BANKERS HILL CLASSES                       */
