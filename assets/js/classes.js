@@ -9,10 +9,12 @@ const SUBJECTS = {
   SINGING: "Singing",
   VISUAL_ARTS: "Visual Arts",
   DANCE: "Dance",
+  BALLET: "Ballet",
+  TUMBLING: "Tumbling",
+  TAP: "Tap",
   BALLET_TAP_0: "Pre Ballet & Tap",
   BALLET_TAP_1: "Kids 1 Ballet & Tap",
   BALLET_TAP_2: "Kids 2 Ballet & Tap",
-  TUMBLING: "Kids 1 & 2 Tumbling",
   KIDS_JAZZ_1_2: "Kids 1 & 2 Jazz Dance",
   PRE_DANCE_TUMBLE: "Pre Dance & Tumble",
   ADULT_SENIOR_DANCE: "Adult & Senior Dance Class",
@@ -70,31 +72,24 @@ const chulaClasses = {
 const bankersHillClasses = {
   Saturday: [
     {
-      start: "8:45",
-      end: "9:30",
-      name: SUBJECTS.PRE_DANCE_TUMBLE,
-      level: "Ages 3-5",
-      monthlyFee: 0,
-    },
-    {
       start: "9:30",
       end: "10:30",
-      name: SUBJECTS.BALLET_TAP_1,
-      level: "Ages for 6-8",
+      name: SUBJECTS.BALLET,
+      level: "Ages 7-10",
       monthlyFee: 0,
     },
     {
       start: "10:30",
       end: "11:00",
       name: SUBJECTS.TUMBLING,
-      level: "",
+      level: "Ages 7-10",
       monthlyFee: 0,
     },
     {
       start: "11:00",
-      end: "12:00",
-      name: SUBJECTS.BALLET_TAP_2,
-      level: "Ages 8-10",
+      end: "11:30",
+      name: SUBJECTS.TAP,
+      level: "Ages 7-10",
       monthlyFee: 0,
     },
   ],
@@ -134,6 +129,18 @@ const DESCRIPTIONS = {
   [SUBJECTS.BALLET_TAP_2]: {
     description:
       "Ballet & Tap Combination Class for children 8 - 10 years of age. Students will advance, building on the same skills in Kids 1 Ballet & Tap, and learning new dance techniques and vocabulary.",
+    BankersHillDetails: "",
+    ChulaVistaDetails: "",
+  },
+  [SUBJECTS.BALLET]: {
+    description:
+      "Ballet class for children 7 - 10 years of age. Students will build fundamental skills, increasing flexibility, strength, coordination, and rhythm while learning new dance techniques and vocabulary.",
+    BankersHillDetails: "",
+    ChulaVistaDetails: "",
+  },
+  [SUBJECTS.TAP]: {
+    description:
+      "Tap class for children 7 - 10 years of age. Students will learn and advance dance techniques, coordination, and rhythm.",
     BankersHillDetails: "",
     ChulaVistaDetails: "",
   },
