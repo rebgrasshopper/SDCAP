@@ -19,6 +19,8 @@ const SUBJECTS = {
   PRE_DANCE_TUMBLE: "Pre Dance & Tumble",
   ADULT_SENIOR_DANCE: "Adult & Senior Dance Class",
   MUSICAL_THEATRE_KIDS: "Musical Theatre Kids",
+  TOYLAND: "Toyland",
+  ENCORE_FALL_ART: "Fall Art Experience Camp",
 };
 
 // class boilerplate
@@ -90,6 +92,18 @@ const bankersHillClasses = {
       end: "11:30",
       name: SUBJECTS.TAP,
       level: "Ages 7-10",
+      monthlyFee: 0,
+    },
+  ],
+};
+
+const allClasses = {
+  Friday: [
+    {
+      start: "4:00",
+      end: "6:00",
+      name: SUBJECTS.TOYLAND,
+      level: "",
       monthlyFee: 0,
     },
   ],
@@ -181,6 +195,12 @@ const DESCRIPTIONS = {
     BankersHillDetails: "",
     ChulaVistaDetails:
       '"Alice in Wonderland" Rebooted!\n$50\nTwo 1 ½ hour Classes per week\nWednesdays 3:30-5:00 April 12 - May 31 at Parkway Community Center\nThursdays 3:30-5:00  April 13 - June 1   at CV Woman’s Club (no class May 11)',
+  },
+  [SUBJECTS.TOYLAND]: {
+    description:
+      "Students will learn to Act, Dance, and Sing while rehearsing for a Holiday production full of skits, and musical numbers.",
+    BankersHillDetails: "",
+    ChulaVistaDetails: "",
   },
 };
 
@@ -288,7 +308,7 @@ $(document).ready(function () {
   );
   const bankersHillClassBallerinaTwo =
     document.getElementById("classBallerinaTwoB");
-  const bankersHillLocation = "BankersHill";
+  const bankersHillLocation = "The Taoist Sanctuary";
 
   generateClassDays(
     bankersHillTableBody,

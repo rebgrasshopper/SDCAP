@@ -20,6 +20,13 @@
   margin: 0px;
 }
 
+#articleHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.4em;
+}
+
 h1 {
   z-index: 100;
 }
